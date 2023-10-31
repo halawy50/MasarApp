@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">مسار</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="facebook_app_id">3590739111198159</string>
+    <string name="fb_login_protocol_scheme">fb3590739111198159</string>
+    <string name="facebook_client_token">6ffeaf3644ed57623964e8abba65c315</string>
+
+    <string name="defult">486481410936-208k9lkc5f1ojsuoc3crgm93sjnn3k28.apps.googleusercontent.com</string>
+    <string name="policy">تطبيق (مسار) هو تطبيق خاص بدولة الاردن يعمل لحجز السيارات لتوصيل الطلاب الي المدارس ويوجد به ثلاث اقسام اولا قسم الطلاب وثانيا قسم الشركة وثالثا قسم صاحب السيارة . يمكن للطالب حجز سائق عن طريق اختيار قسم حجز مقعد بكل سهولة التصريات الموجودة في التطبيق هو الدخول الي معرض الصور يطلب التطبيق من المستخدم الصلاحية للوصول الي معرض الصور التطبيق مخصص لطلاب المدارس فقط</string>
+
+    <string name="map_key">AIzaSyAMFxH6RfpGb0_uha-Ww0jq1yIL8Aj3gso</string>
+
+</resources>

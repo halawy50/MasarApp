@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/_15sdp"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="بيانات السائق"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:textSize="@dimen/_15sdp"
+                android:fontFamily="@font/almarai"
+                />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="اسم السائق"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"
+                    android:layout_gravity="right"
+                    android:textSize="@dimen/_15sdp"
+                    android:fontFamily="@font/almarai"
+                    />
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_15sdp"
+                    android:fontFamily="@font/almarai"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="رقم المركبة"
+                android:textColor="@color/gray"
+                android:textStyle="bold"
+                android:layout_gravity="right"
+                android:textSize="@dimen/_15sdp"
+                android:fontFamily="@font/almarai"
+                />
+            <TextView
+                android:id="@+id/numberOfVechile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="@dimen/_15sdp"
+                android:fontFamily="@font/almarai"
+                android:layout_marginBottom="@dimen/_10sdp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="نوع الرخصة"
+                android:textColor="@color/gray"
+                android:textStyle="bold"
+                android:layout_gravity="right"
+                android:textSize="@dimen/_15sdp"
+                android:fontFamily="@font/almarai"
+                />
+            <TextView
+                android:id="@+id/typeOfLicense"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="@dimen/_15sdp"
+                android:fontFamily="@font/almarai"
+                android:layout_marginBottom="@dimen/_10sdp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="رقم الرخصة الصادرة من هيئة النقل البري"
+                android:textColor="@color/gray"
+                android:textStyle="bold"
+                android:visibility="gone"
+                android:layout_gravity="right"
+                android:textSize="@dimen/_15sdp"
+                android:fontFamily="@font/almarai"
+                />
+            <TextView
+                android:id="@+id/numberofLicenseTrasport"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2023/09/6"
+                android:layout_gravity="right"
+                android:textColor="@color/black"
+                android:visibility="gone"
+                android:textStyle="bold"
+                android:textSize="@dimen/_15sdp"
+                android:fontFamily="@font/almarai"
+                android:layout_marginBottom="@dimen/_10sdp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="نوع المركبة"
+                android:textColor="@color/gray"
+                android:textStyle="bold"
+                android:layout_gravity="right"
+                android:textSize="@dimen/_15sdp"
+                android:fontFamily="@font/almarai"
+                />
+            <TextView
+                android:id="@+id/type_Car"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="@dimen/_15sdp"
+                android:fontFamily="@font/almarai"
+                />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

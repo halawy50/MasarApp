@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/splashScreen_Fragment">
+
+    <fragment
+        android:id="@+id/firstPage_Fragment"
+        android:name="com.masar.masatapp1.UI.FirstPage_Fragment"
+        android:label="fragment_first_page_"
+        tools:layout="@layout/fragment_first_page_" >
+        <action
+            android:id="@+id/action_firstPage_Fragment_to_login_Student_Fragment"
+            app:destination="@id/login_Student_Fragment"
+            app:popUpTo="@id/firstPage_Fragment" />
+        <action
+            android:id="@+id/action_firstPage_Fragment_to_logInCompanyDriverFragment"
+            app:destination="@id/logInCompanyDriverFragment" />
+        <action
+            android:id="@+id/action_firstPage_Fragment_to_loginDriverFragment"
+            app:destination="@id/loginDriverFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/splashScreen_Fragment"
+        android:name="com.masar.masatapp1.UI.SplashScreen_Fragment"
+        android:label="fragment_splash_screen_"
+        tools:layout="@layout/fragment_splash_screen_" >
+        <action
+            android:id="@+id/action_splashScreen_Fragment_to_firstPage_Fragment"
+            app:destination="@id/firstPage_Fragment" />
+        <action
+            android:id="@+id/action_splashScreen_Fragment_to_homePage_Student_Fragment"
+            app:destination="@id/homePage_Student_Fragment" />
+        <action
+            android:id="@+id/action_splashScreen_Fragment_to_homeCompanyDeiverFragment"
+            app:destination="@id/homeCompanyDeiverFragment" />
+        <action
+            android:id="@+id/action_splashScreen_Fragment_to_homeDriverFragment"
+            app:destination="@id/homeDriverFragment" />
+        <action
+            android:id="@+id/action_splashScreen_Fragment_to_homeDriverFragment2"
+            app:destination="@id/homeDriverFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/login_Student_Fragment"
+        android:name="com.masar.masatapp1.UI.Student.Regiter_Student.Login_Student_Fragment"
+        android:label="fragment_login__student_"
+        tools:layout="@layout/fragment_login__student_" >
+        <action
+            android:id="@+id/action_login_Student_Fragment_to_signUp_Student_Fragment"
+            app:destination="@id/signUp_Student_Fragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_login_Student_Fragment_to_forget_Password_Student_Fragment"
+            app:destination="@id/forget_Password_Student_Fragment" />
+        <action
+            android:id="@+id/action_login_Student_Fragment_to_homePage_Student_Fragment"
+            app:destination="@id/homePage_Student_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUp_Student_Fragment"
+        android:name="com.masar.masatapp1.UI.Student.Regiter_Student.SignUp_Student_Fragment"
+        android:label="fragment_sign_up__student_"
+        tools:layout="@layout/fragment_sign_up__student_" >
+        <action
+            android:id="@+id/action_signUp_Student_Fragment_to_login_Student_Fragment"
+            app:destination="@id/login_Student_Fragment" />
+        <action
+            android:id="@+id/action_signUp_Student_Fragment_to_homePage_Student_Fragment"
+            app:destination="@id/homePage_Student_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/forget_Password_Student_Fragment"
+        android:name="com.masar.masatapp1.UI.Student.Regiter_Student.Forget_Password_Student_Fragment"
+        android:label="fragment_forget__password__student_"
+        tools:layout="@layout/fragment_forget__password__student_" >
+        <action
+            android:id="@+id/action_forget_Password_Student_Fragment_to_login_Student_Fragment"
+            app:destination="@id/login_Student_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homePage_Student_Fragment"
+        android:name="com.masar.masatapp1.UI.Student.MainPage_Student.HomePage_Student_Fragment"
+        android:label="fragment_home_page_student"
+        tools:layout="@layout/fragment_home_page_student" >
+        <action
+            android:id="@+id/action_homePage_Student_Fragment_to_all_Book_Student_Fragment"
+            app:destination="@id/all_Book_Student_Fragment" />
+        <action
+            android:id="@+id/action_homePage_Student_Fragment_to_FAQ_Student_Fragment"
+            app:destination="@id/FAQ_Student_Fragment" />
+        <action
+            android:id="@+id/action_homePage_Student_Fragment_to_setting_Student_Fragment"
+            app:destination="@id/setting_Student_Fragment" />
+        <action
+            android:id="@+id/action_homePage_Student_Fragment_to_pageOne_Book__Fragment"
+            app:destination="@id/pageOne_Book__Fragment" />
+        <action
+            android:id="@+id/action_homePage_Student_Fragment_to_info_Student_ragment"
+            app:destination="@id/info_Student_ragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/all_Book_Student_Fragment"
+        android:name="com.masar.masatapp1.UI.Student.MainPage_Student.All_Book_Student.All_Book_Student_Fragment"
+        android:label="fragment_all_book_student"
+        tools:layout="@layout/fragment_all_book_student" >
+        <action
+            android:id="@+id/action_all_Book_Student_Fragment_to_show_Book_Student_Fragment"
+            app:destination="@id/show_Book_Student_Fragment" />
+        <action
+            android:id="@+id/action_all_Book_Student_Fragment_to_homePage_Student_Fragment"
+            app:destination="@id/homePage_Student_Fragment"
+            app:launchSingleTop="false"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/FAQ_Student_Fragment"
+        android:name="com.masar.masatapp1.UI.Student.MainPage_Student.FAQ_Student_Fragment"
+        android:label="fragment_f_a_q__student_"
+        tools:layout="@layout/fragment_f_a_q__student_" />
+    <fragment
+        android:id="@+id/setting_Student_Fragment"
+        android:name="com.masar.masatapp1.UI.Student.MainPage_Student.Setting_Student_Fragment"
+        android:label="fragment_setting__student_"
+        tools:layout="@layout/fragment_setting__student_" >
+        <action
+            android:id="@+id/action_setting_Student_Fragment_to_firstPage_Fragment"
+            app:destination="@id/firstPage_Fragment" />
+        <action
+            android:id="@+id/action_setting_Student_Fragment_to_policyFragment"
+            app:destination="@id/policyFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/show_Book_Student_Fragment"
+        android:name="com.masar.masatapp1.UI.Student.MainPage_Student.All_Book_Student.Show_Book_Student_Fragment"
+        android:label="fragment_show_book_student"
+        tools:layout="@layout/fragment_show_book_student" />
+    <fragment
+        android:id="@+id/pageOne_Book__Fragment"
+        android:name="com.masar.masatapp1.UI.Student.MainPage_Student.Book_Student.PageOne_Book__Fragment"
+        android:label="fragment_page1_one__book_student"
+        tools:layout="@layout/fragment_page1_one__book_student" >
+        <action
+            android:id="@+id/action_pageOne_Book__Fragment_to_pageTwo_Book_Fragment"
+            app:destination="@id/pageTwo_Book_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pageTwo_Book_Fragment"
+        android:name="com.masar.masatapp1.UI.Student.MainPage_Student.Book_Student.PageTwo_Book_Fragment"
+        android:label="fragment_page_two_book_student"
+        tools:layout="@layout/fragment_page_two_book_student" >
+        <action
+            android:id="@+id/action_pageTwo_Book_Fragment_to_pageThree_Book_Fragment"
+            app:destination="@id/pageThree_Book_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pageThree_Book_Fragment"
+        android:name="com.masar.masatapp1.UI.Student.MainPage_Student.Book_Student.PageThree_Book_Fragment"
+        android:label="fragment_page_three_book_student"
+        tools:layout="@layout/fragment_page_three_book_student" >
+        <action
+            android:id="@+id/action_pageThree_Book_Fragment_to_all_Book_Student_Fragment"
+            app:destination="@id/all_Book_Student_Fragment"
+            app:launchSingleTop="false"
+            app:popUpTo="@id/homePage_Student_Fragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/info_Student_ragment"
+        android:name="com.masar.masatapp1.UI.Student.MainPage_Student.Info_Student_ragment"
+        android:label="fragment_info__student_ragment"
+        tools:layout="@layout/fragment_info__student_ragment" />
+    <fragment
+        android:id="@+id/logInCompanyDriverFragment"
+        android:name="com.masar.masatapp1.UI.CompanyDriver.Login_CompanyDriver.LogInCompanyDriverFragment"
+        android:label="LogInCompanyDriverFragment" >
+        <action
+            android:id="@+id/action_logInCompanyDriverFragment_to_homeCompanyDeiverFragment"
+            app:destination="@id/homeCompanyDeiverFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeCompanyDeiverFragment"
+        android:name="com.masar.masatapp1.UI.CompanyDriver.HomeCompanyDeiverFragment"
+        android:label="fragment_home_company_deiver"
+        tools:layout="@layout/fragment_home_company_deiver" >
+        <action
+            android:id="@+id/action_homeCompanyDeiverFragment_to_addNewDriverFragment"
+            app:destination="@id/addNewDriverFragment" />
+        <action
+            android:id="@+id/action_homeCompanyDeiverFragment_to_showAllDriverFragment"
+            app:destination="@id/showAllDriverFragment" />
+        <action
+            android:id="@+id/action_homeCompanyDeiverFragment_to_firstPage_Fragment"
+            app:destination="@id/firstPage_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addNewDriverFragment"
+        android:name="com.masar.masatapp1.UI.CompanyDriver.AddNewDriverFragment"
+        android:label="AddNewDriverFragment" />
+    <fragment
+        android:id="@+id/showAllDriverFragment"
+        android:name="com.masar.masatapp1.UI.CompanyDriver.Anylisis.ShowAllDriverFragment"
+        android:label="fragment_show_all_driver"
+        tools:layout="@layout/fragment_show_all_driver" >
+        <action
+            android:id="@+id/action_showAllDriverFragment_to_showOneDriverFragment"
+            app:destination="@id/showOneDriverFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/showOneDriverFragment"
+        android:name="com.masar.masatapp1.UI.CompanyDriver.Anylisis.ShowOneDriverFragment"
+        android:label="fragment_show_one_driver"
+        tools:layout="@layout/fragment_show_one_driver" />
+    <fragment
+        android:id="@+id/loginDriverFragment"
+        android:name="com.masar.masatapp1.UI.Driver.Login.LoginDriverFragment"
+        android:label="LoginDriverFragment" >
+        <action
+            android:id="@+id/action_loginDriverFragment_to_homeDriverFragment"
+            app:destination="@id/homeDriverFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeDriverFragment"
+        android:name="com.masar.masatapp1.UI.Driver.HomePage.HomeDriverFragment"
+        android:label="fragment_home_driver"
+        tools:layout="@layout/fragment_home_driver" >
+        <action
+            android:id="@+id/action_homeDriverFragment_to_loginDriverFragment"
+            app:destination="@id/loginDriverFragment" />
+        <action
+            android:id="@+id/action_homeDriverFragment_to_showBookInDriverFragment"
+            app:destination="@id/showBookInDriverFragment" />
+        <action
+            android:id="@+id/action_homeDriverFragment_to_firstPage_Fragment"
+            app:destination="@id/firstPage_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/showBookInDriverFragment"
+        android:name="com.masar.masatapp1.UI.Driver.HomePage.ShowBookInDriverFragment"
+        android:label="ShowBookInDriverFragment" />
+    <fragment
+        android:id="@+id/policyFragment"
+        android:name="com.masar.masatapp1.PolicyFragment"
+        android:label="PolicyFragment" />
+</navigation>

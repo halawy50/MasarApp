@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_150sdp"
+            android:src="@drawable/company"
+            android:layout_marginBottom="@dimen/_15sdp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="مكتب النقل المدرسي"
+            android:textStyle="bold"
+            android:fontFamily="@font/almarai"
+            android:textSize="@dimen/_20sdp"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="البريد الالكتروني"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_marginTop="@dimen/_15sdp"
+            app:hintTextColor="@color/orange"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewSignIn2">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etUserEmail"
+                android:inputType="textEmailAddress"
+                android:layout_width="match_parent"
+                android:fontFamily="@font/almarai"
+                android:layout_height="wrap_content"
+                app:hintTextColor="@color/orange" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="كلمة المرور"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            app:endIconMode="password_toggle"
+            android:layout_marginTop="@dimen/_10sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/etUserNameLayout_TextField">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etPassword"
+                android:inputType="textPassword"
+                android:fontFamily="@font/almarai"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <RelativeLayout
+            android:id="@+id/buttonSignIn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@drawable/backgroud_botton"
+            android:layout_marginTop="@dimen/_13sdp"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewForgetPassword">
+
+            <TextView
+                android:id="@+id/text_signin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/almarai"
+                android:text="تسجيل الدخول"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <ProgressBar
+                android:id="@+id/progressbar_signin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:indeterminateTint="@color/white"
+                android:visibility="gone" />
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:visibility="gone"
+            android:backgroundTint="@color/white"
+            android:background="@drawable/backgroud_botton"
+            android:gravity="center"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:elevation="2dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight="0.75"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="تسجيل الدخول بواسطة جوجل"
+                android:textColor="@color/black"
+                android:fontFamily="@font/almarai"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="normal"
+                android:padding="@dimen/_5sdp"
+                android:gravity="center|start"
+                />
+            <ImageView
+                android:layout_weight="0.25"
+                android:layout_width="@dimen/_15sdp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/_5sdp"
+                android:src="@drawable/google"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:id="@+id/back"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/buttonSignIn"
+            android:layout_marginTop="@dimen/_13sdp"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/_13sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewNewAccount2"
+                android:text="رجوع"
+                android:textStyle="bold"
+                android:fontFamily="@font/almarai"
+                android:textSize="@dimen/_13sdp"
+                android:textColor="@color/orange"
+                app:layout_constraintEnd_toEndOf="parent"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</ScrollView>

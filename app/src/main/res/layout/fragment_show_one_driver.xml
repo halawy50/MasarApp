@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.CompanyDriver.Anylisis.ShowOneDriverFragment">
+
+  <ImageView
+      android:id="@+id/imageDriver"
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/_250sdp"
+      android:scaleType="centerCrop"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <androidx.cardview.widget.CardView
+      android:id="@+id/imageBack"
+      android:layout_width="@dimen/_35sdp"
+      android:layout_height="@dimen/_35sdp"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      android:padding="@dimen/_10sdp"
+      android:layout_marginTop="@dimen/_35sdp"
+      android:layout_marginStart="@dimen/_10sdp"
+      android:layout_marginEnd="@dimen/_10sdp"
+      app:cardCornerRadius="@dimen/_5sdp"
+      android:backgroundTint="#E1E1E1"
+      android:outlineAmbientShadowColor="@color/white"
+      android:outlineSpotShadowColor="@color/white"
+      >
+    <ImageView
+        android:layout_width="@dimen/_20sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:src="@drawable/icon_back"
+
+        android:layout_gravity="center"
+        />
+
+  </androidx.cardview.widget.CardView>
+
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      android:layout_margin="@dimen/_10sdp"
+      app:layout_constraintEnd_toEndOf="parent"
+      android:scrollbars="none"
+      app:layout_constraintTop_toBottomOf="@+id/imageDriver"
+      app:layout_constraintVertical_bias="0.0"
+      >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        >
+
+      <TextView
+          android:id="@+id/nameDriver"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:fontFamily="@font/almarai"
+          android:textColor="@color/black"
+          android:textSize="@dimen/_15sdp"
+          android:gravity="right"
+          android:textStyle="bold"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+      <TextView
+          android:id="@+id/state"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:fontFamily="@font/somar"
+          android:textColor="@color/gray"
+          android:textSize="@dimen/_20sdp"
+          android:textStyle="bold"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/nameComany" />
+
+      <com.google.android.material.textfield.TextInputLayout
+          android:id="@+id/textInputLayout"
+          style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="تغيير حالة الحساب"
+          android:layout_marginTop="@dimen/_10sdp"
+          app:hintTextColor="@color/orange"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/state">
+
+        <AutoCompleteTextView
+            android:id="@+id/stateCompanyChange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/almarai"
+            android:inputType="none" />
+      </com.google.android.material.textfield.TextInputLayout>
+
+      <com.google.android.material.textfield.TextInputLayout
+          style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="@dimen/_15sdp"
+          android:hint="البريد الالكتروني"
+          app:hintTextColor="@color/orange"
+          android:enabled="false"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/textViewSignIn2">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etUserEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/almarai"
+            android:inputType="textEmailAddress"
+            app:hintTextColor="@color/orange" />
+      </com.google.android.material.textfield.TextInputLayout>
+
+      <com.google.android.material.textfield.TextInputLayout
+          style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="@dimen/_15sdp"
+          android:hint="كلمة المرور"
+          app:hintTextColor="@color/orange"
+          android:enabled="false"
+
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/textViewSignIn2">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/almarai"
+            app:hintTextColor="@color/orange" />
+      </com.google.android.material.textfield.TextInputLayout>
+
+
+      <TextView
+          android:id="@+id/textView2"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="@dimen/_10sdp"
+          android:fontFamily="@font/almarai"
+          android:text="رحلات تم تنفيذها"
+          android:textAlignment="center"
+          android:textColor="@color/black"
+          android:textSize="@dimen/_20sdp"
+          android:textStyle="bold"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+      <TextView
+          android:id="@+id/done"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:fontFamily="@font/almarai"
+          android:textAlignment="center"
+          android:textColor="@color/black"
+          android:textSize="@dimen/_20sdp"
+          android:textStyle="bold"
+          app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+      <TextView
+          android:id="@+id/textView4"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="@dimen/_10sdp"
+          android:fontFamily="@font/almarai"
+          android:text="رحلات في الانتظار"
+          android:textAlignment="center"
+          android:textColor="@color/black"
+          android:textSize="@dimen/_20sdp"
+          android:textStyle="bold"
+          app:layout_constraintTop_toBottomOf="@+id/done" />
+
+      <TextView
+          android:id="@+id/pending"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:fontFamily="@font/almarai"
+          android:textAlignment="center"
+          android:textColor="@color/black"
+          android:textSize="@dimen/_20sdp"
+          android:textStyle="bold"
+          app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+      <TextView
+          android:id="@+id/textView6"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="@dimen/_10sdp"
+          android:fontFamily="@font/almarai"
+          android:text="رحلات مرفوضة"
+          android:textAlignment="center"
+          android:textColor="@color/black"
+          android:textSize="@dimen/_20sdp"
+          android:textStyle="bold"
+          app:layout_constraintTop_toBottomOf="@+id/pending" />
+
+      <TextView
+          android:id="@+id/reject"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:fontFamily="@font/almarai"
+          android:textAlignment="center"
+          android:textColor="@color/black"
+          android:textSize="@dimen/_20sdp"
+          android:textStyle="bold"
+          app:layout_constraintTop_toBottomOf="@+id/textView6" />
+    </LinearLayout>
+
+  </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

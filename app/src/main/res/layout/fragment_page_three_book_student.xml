@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.Student.MainPage_Student.Book_Student.PageThree_Book_Fragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/_50sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/_15sdp"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ملخص الحجز"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:textSize="@dimen/_15sdp"
+                android:fontFamily="@font/almarai"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="اسم"
+                android:textColor="@color/gray"
+                android:textStyle="bold"
+                android:layout_gravity="right"
+                android:textSize="@dimen/_15sdp"
+                android:fontFamily="@font/almarai"
+                />
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="@dimen/_15sdp"
+                android:fontFamily="@font/almarai"
+                android:layout_marginBottom="@dimen/_10sdp"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="رقم الهاتف"
+                android:textColor="@color/gray"
+                android:textStyle="bold"
+                android:layout_gravity="right"
+                android:textSize="@dimen/_15sdp"
+                android:fontFamily="@font/almarai"
+                />
+            <TextView
+                android:id="@+id/phoneNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="@dimen/_15sdp"
+                android:fontFamily="@font/almarai"
+                android:layout_marginBottom="@dimen/_10sdp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="المحافظة"
+                android:textColor="@color/gray"
+                android:textStyle="bold"
+                android:layout_gravity="right"
+                android:textSize="@dimen/_15sdp"
+                android:fontFamily="@font/almarai"
+                />
+            <TextView
+                android:id="@+id/city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="@dimen/_15sdp"
+                android:fontFamily="@font/almarai"
+                android:layout_marginBottom="@dimen/_10sdp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="المديرية"
+                android:textColor="@color/gray"
+                android:textStyle="bold"
+                android:layout_gravity="right"
+                android:textSize="@dimen/_15sdp"
+                android:fontFamily="@font/almarai"
+                />
+            <TextView
+                android:id="@+id/sub_city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="@dimen/_15sdp"
+                android:fontFamily="@font/almarai"
+                android:layout_marginBottom="@dimen/_10sdp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="الاشتراك"
+                android:textColor="@color/gray"
+                android:textStyle="bold"
+                android:layout_gravity="right"
+                android:textSize="@dimen/_15sdp"
+                android:fontFamily="@font/almarai"
+                />
+            <TextView
+                android:id="@+id/subscribe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="@dimen/_15sdp"
+                android:fontFamily="@font/almarai"
+                android:layout_marginBottom="@dimen/_10sdp"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="اسم السائق"
+                android:textColor="@color/gray"
+                android:textStyle="bold"
+                android:layout_gravity="right"
+                android:textSize="@dimen/_15sdp"
+                android:fontFamily="@font/almarai"
+                />
+            <TextView
+                android:id="@+id/name_Driver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="@dimen/_15sdp"
+                android:fontFamily="@font/almarai"
+                android:layout_marginBottom="@dimen/_10sdp"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="عدد المقاعد المطلوبة"
+                android:textColor="@color/gray"
+                android:textStyle="bold"
+                android:layout_gravity="right"
+                android:textSize="@dimen/_15sdp"
+                android:fontFamily="@font/almarai"
+                />
+            <TextView
+                android:id="@+id/counter_Seat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="@dimen/_15sdp"
+                android:fontFamily="@font/almarai"
+                android:layout_marginBottom="@dimen/_10sdp"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ذهاب وعودة"
+                android:textColor="@color/gray"
+                android:textStyle="bold"
+                android:layout_gravity="right"
+                android:textSize="@dimen/_15sdp"
+                android:fontFamily="@font/almarai"
+                />
+            <TextView
+                android:id="@+id/go_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="@dimen/_15sdp"
+                android:fontFamily="@font/almarai"
+                android:layout_marginBottom="@dimen/_10sdp"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="نوع المركبة"
+                android:textColor="@color/gray"
+                android:textStyle="bold"
+                android:layout_gravity="right"
+                android:textSize="@dimen/_15sdp"
+                android:fontFamily="@font/almarai"
+                />
+            <TextView
+                android:id="@+id/typeCar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="@dimen/_15sdp"
+                android:fontFamily="@font/almarai"
+                android:layout_marginBottom="@dimen/_10sdp"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="عنوان الانطلاق"
+                android:textColor="@color/gray"
+                android:textStyle="bold"
+                android:layout_gravity="right"
+                android:textSize="@dimen/_15sdp"
+                android:fontFamily="@font/almarai"
+                />
+            <TextView
+                android:id="@+id/address_from"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="@dimen/_15sdp"
+                android:fontFamily="@font/almarai"
+                android:layout_marginBottom="@dimen/_10sdp"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="عنوان المدرسة"
+                android:textColor="@color/gray"
+                android:textStyle="bold"
+                android:layout_gravity="right"
+                android:textSize="@dimen/_15sdp"
+                android:fontFamily="@font/almarai"
+                />
+            <TextView
+                android:id="@+id/address_to"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="@dimen/_15sdp"
+                android:fontFamily="@font/almarai"
+                android:layout_marginBottom="@dimen/_10sdp"
+
+                />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/button_prevus"
+
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/gray"
+            android:fontFamily="@font/almarai"
+            android:text="السابق"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15sdp" />
+
+        <Button
+            android:id="@+id/button_done"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:fontFamily="@font/almarai"
+
+            android:text="تأكيد الحجز"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15sdp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
