@@ -19,7 +19,7 @@ Enjoy peace of mind knowing your loved ones are in safe hands.
 ## 📲 Download & Try
 
 [**Download Masar App**](https://sites.google.com/view/masar880/الصفحة-الرئيسية?authuser=1)  
-*(Currently available via direct link — Coming soon to Google Play and App Store)*
+*(Currently available via direct link)*
 
 ---
 
