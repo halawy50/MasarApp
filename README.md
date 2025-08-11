@@ -40,7 +40,7 @@ Enjoy peace of mind knowing your loved ones are in safe hands.
 
 ---
 
-<img src="https://github.com/user-attachments/assets/c7932fd0-dd8b-450f-91db-837798dd06c8">
+<img src="https://github.com/user-attachments/assets/c7932fd0-dd8b-450f-91db-837798dd06c8" width="100%">
 
 ## 📷 Screenshots
 <table>
