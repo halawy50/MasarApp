@@ -47,10 +47,14 @@ Enjoy peace of mind knowing your loved ones are in safe hands.
 ## 📷 Screenshots
 <table>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/25a9bde5-b2db-4870-8efc-65d30f1e2c39" width="250"></td>
-    <td><img src="https://github.com/user-attachments/assets/3d5600aa-b010-4d94-a083-3833f4846636" width="250"></td>
-    <td> <img width="1152" height="2048" alt="2" src="https://github.com/user-attachments/assets/45abdf5f-5b16-42a4-9764-7b13be4f324b" width="250" /></td>
-   
+    <td><img src="https://github.com/user-attachments/assets/c7932fd0-dd8b-450f-91db-837798dd06c8" width="250"></td>
+    <td><img src="https://github.com/user-attachments/assets/dca6d283-7327-4da3-9267-6000a1524129" width="250"></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/2d1dad67-f1d3-4811-a5bd-e073ee14272d" width="250"></td>
+    <td><img src="https://github.com/user-attachments/assets/c1da896d-6c9b-4bc3-b413-4efe3336b5db" width="250"></td>
+    <td><img src="https://github.com/user-attachments/assets/dca6d283-7327-4da3-9267-6000a1524129" width="250"></td>
+    
   </tr>
 </table>
 
