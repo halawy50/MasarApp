@@ -1,4 +1,4 @@
-# 🚗 Masar App
+<img width="1152" height="2048" alt="2" src="https://github.com/user-attachments/assets/500d5692-d353-41e0-bb30-a6439db09157" /># 🚗 Masar App
 
 **Book your seat easily — your safe transport solution for your kids and family.**
 
@@ -42,14 +42,15 @@ Enjoy peace of mind knowing your loved ones are in safe hands.
 
 ---
 
-<img src="https://github.com/user-attachments/assets/c7932fd0-dd8b-450f-91db-837798dd06c8" width="250">
+<img src="https://github.com/user-attachments/assets/c7932fd0-dd8b-450f-91db-837798dd06c8">
 
 ## 📷 Screenshots
 <table>
   <tr>
     <td><img src="https://github.com/user-attachments/assets/25a9bde5-b2db-4870-8efc-65d30f1e2c39" width="250"></td>
-    <td><img src="https://github.com/user-attachments/assets/25a9bde5-b2db-4870-8efc-65d30f1e2c39" width="250"></td>
     <td><img src="https://github.com/user-attachments/assets/3d5600aa-b010-4d94-a083-3833f4846636" width="250"></td>
+    <td> <img width="1152" height="2048" alt="2" src="https://github.com/user-attachments/assets/45abdf5f-5b16-42a4-9764-7b13be4f324b" width="250" /></td>
+   
   </tr>
 </table>
 
