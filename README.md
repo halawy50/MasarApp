@@ -1,5 +1,3 @@
-<img width="1152" height="2048" alt="2" src="https://github.com/user-attachments/assets/500d5692-d353-41e0-bb30-a6439db09157" /># 🚗 Masar App
-
 **Book your seat easily — your safe transport solution for your kids and family.**
 
 Masar is a **new and unique mobile application** designed to provide **safe, fast, and convenient transportation**.  
@@ -47,14 +45,9 @@ Enjoy peace of mind knowing your loved ones are in safe hands.
 ## 📷 Screenshots
 <table>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/c7932fd0-dd8b-450f-91db-837798dd06c8" width="250"></td>
-    <td><img src="https://github.com/user-attachments/assets/dca6d283-7327-4da3-9267-6000a1524129" width="250"></td>
-  </tr>
-  <tr>
     <td><img src="https://github.com/user-attachments/assets/2d1dad67-f1d3-4811-a5bd-e073ee14272d" width="250"></td>
     <td><img src="https://github.com/user-attachments/assets/c1da896d-6c9b-4bc3-b413-4efe3336b5db" width="250"></td>
     <td><img src="https://github.com/user-attachments/assets/dca6d283-7327-4da3-9267-6000a1524129" width="250"></td>
-    
   </tr>
 </table>
 
