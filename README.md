@@ -60,4 +60,4 @@ If you have any questions, suggestions, or feedback:
 
 ---
 
-**© 2025 Masar App — All rights reserved.**
+**© 2023 Masar App — All rights reserved.**
