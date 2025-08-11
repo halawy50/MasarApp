@@ -41,9 +41,9 @@ Enjoy peace of mind knowing your loved ones are in safe hands.
 - **Time-saving** — Book instantly and avoid last-minute stress.
 
 ---
+<img src="https://github.com/user-attachments/assets/36f1149f-f1c5-493d-abfb-b7b8359727cc">
 
 ## 📷 Screenshots
-<img src="https://github.com/user-attachments/assets/36f1149f-f1c5-493d-abfb-b7b8359727cc" width="250">
 <table>
   <tr>
     <td><img src="https://github.com/user-attachments/assets/c7932fd0-dd8b-450f-91db-837798dd06c8" width="250"></td>
