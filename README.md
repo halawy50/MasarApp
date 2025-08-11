@@ -20,8 +20,8 @@ Enjoy peace of mind knowing your loved ones are in safe hands.
 
 ## 📲 Download & Try
 
-> **Coming soon** on Google Play and App Store.  
-> Stay tuned for the release and start your safe travel experience.
+[**Download Masar App**](https://sites.google.com/view/masar880/الصفحة-الرئيسية?authuser=1)  
+*(Currently available via direct link — Coming soon to Google Play and App Store)*
 
 ---
 
@@ -44,10 +44,16 @@ Enjoy peace of mind knowing your loved ones are in safe hands.
 
 ## 📷 Screenshots
 
-<img width="512" height="288" alt="Group 193" src="https://github.com/user-attachments/assets/c7932fd0-dd8b-450f-91db-837798dd06c8" />
-<img width="1152" height="2048" alt="5" src="https://github.com/user-attachments/assets/36f1149f-f1c5-493d-abfb-b7b8359727cc" />
-<img width="1152" height="2048" alt="4" src="https://github.com/user-attachments/assets/25a9bde5-b2db-4870-8efc-65d30f1e2c39" />
-<img width="1152" height="2048" alt="2" src="https://github.com/user-attachments/assets/3d5600aa-b010-4d94-a083-3833f4846636" />
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/c7932fd0-dd8b-450f-91db-837798dd06c8" width="250"></td>
+    <td><img src="https://github.com/user-attachments/assets/36f1149f-f1c5-493d-abfb-b7b8359727cc" width="250"></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/25a9bde5-b2db-4870-8efc-65d30f1e2c39" width="250"></td>
+    <td><img src="https://github.com/user-attachments/assets/3d5600aa-b010-4d94-a083-3833f4846636" width="250"></td>
+  </tr>
+</table>
 
 ---
 
